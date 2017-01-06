@@ -1,0 +1,24 @@
+.settings-link {
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.change-info {
+  padding: 0px 30px;
+  display: flex;
+}
+
+input[type="text"], input[type="password"], button {
+  padding: 10px;
+  margin: 10px;
+}
+
+.change-info .info {
+  width: 100%;
+}
+
+h1 {
+  width: 100%;
+  padding: 0px 30px;
+}

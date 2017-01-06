@@ -10,8 +10,13 @@ angular.module('userProfiles', ['ui.router'])
 	})
 	.state('profile', {
 		url: '/profile',
-		'templateUrl': './views/profile.html',
+		templateUrl: './views/profile.html',
 		controller: 'profileCtrl'
+	})
+	.state('settings', {
+		url: '/settings',
+		templateUrl: './views/settings.html',
+		controller: 'settingsCtrl'
 	});
 
 	$urlRouterProvider.otherwise('/');
